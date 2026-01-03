@@ -1,0 +1,149 @@
+01(15s) What is a map's "toponym"? 
+a. The ratio between map distance and real distance 
+b. The symbols used for different features 
+*c. All the text on the map, such as place names 
+d. An arrow indicating geographic North 
+
+02(15s) Which map element explains the symbols used to represent different features? 
+*a. Key 
+b. Toponym 
+c. Scale 
+d. Title 
+
+03(20s) What type of map shows the relief of an area using contour lines or color? 
+a. Choropleth map 
+b. Thematic map 
+*c. Topographic map 
+d. Digital atlas 
+
+04(15s) On a map, what does the "Orientation" usually indicate? 
+a. The name of the map 
+b. The population density 
+c. The location of the nearest city 
+*d. The geographic North Pole 
+
+05(15s) What are "isolines" on a thematic map? 
+a. Different colors representing statistics 
+b. Symbols for human settlements 
+*c. Lines connecting places that share the same value, like temperature 
+d. Lines that divide the map into different countries 
+
+06(15s) Which scale would you use for a map of a village or a street map of a town? 
+a. Small scale (1:500 000 to 1:50 000 000) 
+b. Medium scale (1:50 000 to 1:500 000) 
+*c. Large scale (1:10 000 to 1:50 000) 
+d. Global scale 
+
+07(15s) A "choropleth" map uses what to show areas with the same statistical characteristics? 
+*a. Different colors 
+b. Parallel lines 
+c. Thick contours 
+d. Numerical ratios 
+
+08(20s) What is a "numerical scale"? 
+a. A line divided into segments like a ruler 
+b. A list of place names in alphabetical order 
+*c. A ratio where the first number is a map unit and the second is the ground unit 
+d. A digital image made on a computer 
+
+09(15s) If a map has a scale of 1:25 000, what does 1 cm on the map represent on the ground? 
+a. 25 meters 
+*b. 250 meters 
+c. 2.5 kilometers 
+d. 25 kilometers 
+
+10(15s) What are Geographic Information Systems (GIS)? 
+a. Satellite images used to predict weather 
+b. Paper maps found in a school atlas 
+*c. Digital systems used to view, build, and work with maps 
+d. Hand-drawn sketches of mountain ranges 
+
+11(15s) Which map element tells us exactly what the map shows? 
+a. Key 
+b. Scale 
+c. Toponym 
+*d. Title 
+
+12(15s) What do thematic maps display? 
+a. Only natural features like rivers and vegetation 
+*b. Particular information such as climate, economy, or population 
+c. The physical relief of the Earth's crust 
+d. Just the names of cities and towns 
+
+13(15s) A scale of 1:1 250 000 is classified as: 
+a. Large scale 
+*b. Small scale 
+c. Medium scale 
+d. Street scale 
+
+14(20s) How is a "graphic scale" represented on a map? 
+*a. As a line divided into segments, similar to a ruler 
+b. As a fraction or a ratio 
+c. Through a list of colors in the key 
+d. By using 3D digital models 
+
+15(15s) Which digital tool gives the exact geolocation of any point on the Earth's surface? 
+a. Remote sensing 
+*b. GPS or satellite global positioning systems 
+c. A virtual globe 
+d. A digital atlas 
+
+16(15s) Medium scale maps (1:50 000 to 1:500 000) are typically used for: 
+a. World maps and continents 
+b. Street maps of towns 
+*c. Topographic maps and maps of smaller regions or countries 
+d. Maps of very large countries like Russia 
+
+17(15s) What is "remote sensing"? 
+a. Using a compass to find North 
+b. Measuring distance with a graphic scale 
+*c. Obtaining images of the Earth from satellites 
+d. Drawing maps by hand 
+
+18(15s) On a topographic map, what would be considered a "man-made" feature? 
+a. Rivers 
+b. Vegetation 
+*c. Railways 
+d. Valleys 
+
+19(15s) In a numerical scale of 1:1 250 000, 1 cm represents how many kilometers? 
+a. 1.25 km 
+*b. 12.5 km 
+c. 125 km 
+d. 0.125 km 
+
+20(15s) Which type of scale is used for world maps and maps of big continents? 
+a. Large scale 
+b. Medium scale 
+*c. Small scale 
+d. Local scale 
+
+21(15s) Google Earth is an example of which digital representation? 
+a. Digital atlas 
+*b. Virtual globe 
+c. Choropleth map 
+d. Topographic map 
+
+22(15s) Thematic maps that join points with the same temperature are called: 
+a. Population maps 
+b. Relief maps 
+*c. Isotherm maps 
+d. Graphic scales 
+
+23(20s) According to the text, how is a map defined? 
+a. A perfect 3D replica of the Earth 
+*b. A conventional, simplified, and selective representation of an area on a flat surface 
+c. A collection of place names without any images 
+d. A digital file that cannot be printed 
+
+24(15s) What color are "frozen regions" usually represented by in a map key? 
+*a. Grey/White 
+b. Green 
+c. Brown 
+d. Blue 
+
+25(15s) Which scale category covers the range from 1:50 000 to 1:500 000? 
+a. Small scale 
+*b. Medium scale 
+c. Large scale 
+d. Street scale

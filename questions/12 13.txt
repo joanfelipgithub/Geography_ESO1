@@ -1,0 +1,149 @@
+01(15s) What is the definition of geography? 
+a. The study of the atmosphere and weather patterns exclusively 
+b. The process of drawing physical maps and digital navigation tools 
+*c. The science that analyses the physical features of the Earth and the role of humans 
+d. The study of ancient civilizations and their land borders 
+
+02(15s) What percentage of the Earth's surface is covered by landmass? 
+a. 71% 
+b. 39% 
+c. 81% 
+*d. 29% 
+
+03(15s) Which imaginary line divides the planet into Northern and Southern hemispheres? 
+*a. The Equator 
+b. The Greenwich Meridian 
+c. The Tropic of Cancer 
+d. The Arctic Circle 
+
+04(20s) What is "Latitude"? 
+a. The distance between the North Pole and the South Pole 
+*b. The angular distance of a location north or south of the Equator 
+c. The angular distance east or west of the Greenwich Meridian 
+d. The percentage of landmass in a specific hemisphere 
+
+05(15s) What is the maximum possible longitude? 
+a. 90° east or west 
+b. 360° east or west 
+*c. 180° east or west 
+d. 0° east or west 
+
+06(15s) The Earth's shape, flattened at the poles and wider at the Equator, is called a: 
+a. Perfect sphere 
+b. Flat disk 
+c. Conic cylinder 
+*d. Spheroid 
+
+07(15s) What is the total surface area of the Earth? 
+*a. 510 million km² 
+b. 40,077 km 
+c. 6,371 km 
+d. 1,000 million km² 
+
+08(20s) Why is the representation of the Earth on a flat surface always distorted? 
+a. Because the Earth is too large for paper 
+b. Because maps are simplified and selective 
+*c. Because it is impossible to project a 3D volume onto a 2D surface without distortions 
+d. Because map scales are never accurate 
+
+09(15s) Which map projection is most common for representing mid-latitude areas? 
+a. Cylindrical projection 
+*b. Conic projection 
+c. Zenithal projection 
+d. Flat projection 
+
+10(15s) In a cylindrical projection, where is the distortion the greatest? 
+a. Around the Equator 
+b. Between the tropics 
+c. In the mid-latitude areas 
+*d. Around the poles 
+
+11(15s) What are "isolines" on a thematic map? 
+*a. Lines connecting places that share the same value, like temperature 
+b. Different colors used to show statistical characteristics 
+c. Symbols for man-made features like railways 
+d. Arrows indicating geographic North 
+
+12(15s) A scale of 1:25 000 means 1 cm on the map represents: 
+a. 25 meters on the ground 
+*b. 250 meters on the ground 
+c. 2.5 kilometers on the ground 
+d. 25 kilometers on the ground 
+
+13(15s) Which type of scale is used for world maps and maps of big continents? 
+a. Large scale 
+b. Medium scale 
+*c. Small scale 
+d. Local scale 
+
+14(15s) What is the "toponym" on a map? 
+a. The scale ratio 
+b. The map legend 
+c. The orientation arrow 
+*d. All the text on the map, such as place names 
+
+15(15s) Which layer of the atmosphere filters out harmful solar radiation? 
+a. The greenhouse layer 
+*b. The ozone layer 
+c. The nitrogen layer 
+d. The oxygen layer 
+
+16(15s) The "hydrosphere" consists of: 
+a. All the gases surrounding the planet 
+*b. All the water on the planet 
+c. All the living things on the planet 
+d. The solid crust of the Earth 
+
+17(20s) In the carbon cycle, which process involves releasing CO2 through the burning of fossil fuels? 
+a. Photosynthesis 
+b. Respiration 
+*c. Combustion 
+d. Decomposition 
+
+18(15s) Sustainable development is defined as meeting present needs without: 
+a. Changing the atmosphere 
+*b. Depleting resources for future generations 
+c. Using the lithosphere 
+d. Using any energy 
+
+19(15s) How many Sustainable Development Goals (SDGs) were created by the UN? 
+a. 10 
+b. 15 
+*c. 17 
+d. 25 
+
+20(15s) Which layer makes up 84% of the Earth's volume? 
+*a. The mantle 
+b. The crust 
+c. The core 
+d. The lithosphere 
+
+21(15s) The Earth's core consists mainly of: 
+a. Granite and basalt 
+b. Silicates and magnesium 
+*c. Iron and nickel 
+d. Oxygen and silicon 
+
+22(15s) What is the "lithosphere"? 
+a. The liquid layer of the Earth's interior 
+b. The gaseous layer surrounding the planet 
+*c. The solid outer layer including the crust and part of the upper mantle 
+d. The deepest part of the core 
+
+23(15s) What was the name of the single supercontinent that existed millions of years ago? 
+*a. Pangaea 
+b. Laurasia 
+c. Gondwana 
+d. Tethys 
+
+24(20s) What is found along the lines of contact between two large tectonic plates? 
+a. Only flat plains 
+b. Frozen regions 
+*c. Volcanic and seismic activity 
+d. The zero meridian 
+
+25(15s) Which theory explains the formation of continents and the existence of tectonic plates? 
+a. The theory of the greenhouse effect 
+*b. The theory of continental drift 
+c. The theory of map projections 
+d. The theory of sustainable development

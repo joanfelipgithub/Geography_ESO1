@@ -1,0 +1,149 @@
+01(15s) What is the specific name for the Earth's shape, which is flattened at the poles and wider at the Equator? 
+a. Perfect sphere 
+*b. Spheroid 
+c. Flat disk 
+d. Conic cylinder 
+
+02(15s) Why is the Earth wider at the Equator? 
+*a. Due to 4.5 billion years of rotating on its axis 
+b. Because of the weight of the oceans 
+c. Because of the high temperature at the center 
+d. Due to the accumulation of landmass in the south 
+
+03(20s) What is the difference in distance between the highest point (Mount Everest) and the lowest point (Mariana Trench)? 
+a. About 10 km 
+b. About 50 km 
+c. About 5 km 
+*d. About 20 km 
+
+04(15s) Which point is actually furthest from the centre of the Earth due to the planet's flattening? 
+a. Mount Everest 
+b. The North Pole 
+*c. Chimborazo volcano in Ecuador 
+d. The Mariana Trench 
+
+05(15s) What is the total surface area of the Earth? 
+a. 40,077 km 
+b. 1000 million km 2 
+*c. 510 million km 2 
+d. 6,371 km 
+
+06(15s) According to the text, the Earth's surface area is approximately 1,000 times the surface area of: 
+*a. Spain 
+b. Russia 
+c. The Pacific Ocean 
+d. The Moon 
+
+07(15s) Why do cartographers use map projections? 
+a. To make maps more colorful 
+b. To eliminate the need for a scale 
+c. To increase the size of the continents 
+*d. To reduce distortions when representing a 3D volume on a 2D surface 
+
+08(15s) Which of these is considered the "best way" to represent the Earth? 
+a. Flat maps 
+*b. Globes or virtual globes like Google Earth 
+c. Conic projections 
+d. Cylindrical maps 
+
+09(20s) Which geometric property defines a "Conformal projection"? 
+a. It represents the poles as a single flat point 
+b. It maintains surface proportions but distorts shapes 
+*c. It shows the shape and contours of continents and oceans with no distortion 
+d. It maintains the scale of distance between two points 
+
+10(15s) What is the main drawback of an "Equivalent projection"? 
+a. It distorts the scale of distance 
+*b. It distorts shapes and angles 
+c. It cannot show the Equator 
+d. It makes continents look smaller than they are 
+
+11(15s) What does an "Equidistant projection" maintain? 
+a. The shape of the continents 
+b. The surface proportions 
+c. The right angles of the meridians 
+*d. The scale of distance between two points 
+
+12(15s) In a cylindrical projection, how are meridians and parallels arranged? 
+*a. To create right angles 
+b. As concentric circles 
+c. As curved lines meeting at the poles 
+d. As radii of a circle 
+
+13(15s) In a cylindrical projection, where is the distortion the greatest? 
+a. Around the Equator 
+b. Between the tropics 
+*c. Around the poles 
+d. In the mid-latitude areas 
+
+14(15s) What is a cylindrical projection most often used to represent? 
+a. The North and South Poles 
+*b. The areas between the tropics 
+c. High-latitude areas 
+d. Only the oceans 
+
+15(15s) Where are meridians and parallels placed in a "conic projection"? 
+a. On a flat intersection 
+b. On a cylinder 
+c. On a sphere 
+*d. On a cone 
+
+16(20s) In a conic projection, what shape do the parallels form? 
+a. Straight horizontal lines 
+*b. Concentric circles 
+c. Right angles 
+d. Vertical semicircles 
+
+17(15s) For which areas is a conic projection the most common representation? 
+a. The poles 
+b. The tropics 
+*c. Mid-latitude areas 
+d. The entire Earth at once 
+
+18(15s) What is another name for a "flat projection"? 
+a. Conformal projection 
+b. Equivalent projection 
+*c. Zenithal projection 
+d. Spheroid projection 
+
+19(15s) In a zenithal projection, where do the meridians and parallels intersect? 
+*a. At the poles 
+b. At the Equator 
+c. At the tropics 
+d. At the Greenwich Meridian 
+
+20(15s) In a flat projection, how do the meridians appear? 
+a. As concentric circles 
+b. As horizontal straight lines 
+*c. As the radii of the parallel circles 
+d. As curved lines meeting at the Equator 
+
+21(15s) Zenithal projections are the most common way to project: 
+a. Low-latitude areas 
+b. Mid-latitude areas 
+*c. High-latitude areas 
+d. The Atlantic Ocean 
+
+22(15s) What is the polar radius of the Earth? 
+a. 6,378 km 
+b. 6,371 km 
+*c. 6,357 km 
+d. 40,077 km 
+
+23(15s) What is the length of the Equator? 
+a. 20,004 km 
+b. 6,378 km 
+*c. 40,077 km 
+d. 510 million km 
+
+24(15s) What is the mean radius of the Earth? 
+*a. 6,371 km 
+b. 6,357 km 
+c. 6,378 km 
+d. 20,004 km 
+
+25(20s) Why is the representation of the Earth's surface on a flat surface considered "impossible" to do perfectly? 
+a. Because the Earth is too large 
+*b. It is impossible to do without distortions 
+c. Because the Earth is a perfect sphere 
+d. Because there are not enough meridians Would you like me to do the same for the first quiz (about Latitude/Longitude), or are you ready for a new topic?

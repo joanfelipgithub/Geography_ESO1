@@ -1,0 +1,149 @@
+01(15s) What is the highest altitude in the Americas? 
+a. Kilimanjaro (5 895 m) 
+b. Mount Everest (8 848 m) 
+*c. Aconcagua (6 962 m) 
+d. Vinson Massif (4 892 m) 
+
+02(15s) What is the name of the supercontinent that existed millions of years ago? 
+a. Gondwana 
+b. Laurasia 
+c. Tethys 
+*d. Pangaea 
+
+03(15s) Which map element explains the symbols used to represent different features? 
+a. Toponym 
+b. Orientation 
+*c. Key 
+d. Scale 
+
+04(20s) How is the numerical scale 1:25 000 interpreted in terms of real-world distance? 
+*a. 1 cm on the map represents 250 meters on the ground 
+b. 1 cm on the map represents 25 kilometers on the ground 
+c. 1 cm on the map represents 25 000 meters on the ground 
+d. 1 cm on the map represents 2.5 kilometers on the ground 
+
+05(15s) Which sphere of the Earth is defined as the "crust" or solid surface? 
+a. Hydrosphere 
+*b. Lithosphere 
+c. Atmosphere 
+d. Biosphere 
+
+06(15s) In which physical states can water be found on Earth? 
+a. Liquid and gas only 
+b. Fresh and salt only 
+c. Solid and liquid only 
+*d. Solid, liquid, and gas 
+
+07(15s) What percentage of the Earth's volume is made up by the mantle? 
+a. 1% 
+b. 15% 
+*c. 84% 
+d. 71% 
+
+08(15s) Which continent is the smallest by surface area according to the text? 
+a. Antarctica 
+b. Europe 
+*c. Oceania 
+d. Africa 
+
+09(20s) What occurs at the "collision zones" where tectonic plates meet? 
+a. The formation of new oceanic crust 
+b. The cooling of the Earth's core 
+*c. Volcanic and seismic activity 
+d. The creation of the ozone layer 
+
+10(15s) What is the "toponym" on a map? 
+*a. All the text on the map, such as place names 
+b. The relationship between map distance and real distance 
+c. The arrow indicating geographic North 
+d. The title that tells us what the map shows 
+
+11(15s) Which gas is filtered by the ozone layer to protect the Earth? 
+a. Oxygen 
+b. Nitrogen 
+c. Carbon dioxide 
+*d. Harmful solar radiation 
+
+12(15s) Which map projection is most common for projecting high-latitude areas? 
+a. Conic projection 
+b. Cylindrical projection 
+*c. Flat or zenithal projection 
+d. Equidistant projection 
+
+13(15s) What is the polar radius of the Earth? 
+a. 6 378 km 
+b. 6 371 km 
+*c. 6 357 km 
+d. 40 077 km 
+
+14(20s) Which type of map uses "isolines" to connect places sharing the same value? 
+a. Topographic map 
+*b. Thematic map 
+c. Political map 
+d. Digital map 
+
+15(15s) Sustainable development is development that meets present needs without: 
+*a. Depleting the resources for future generations 
+b. Using any fresh water 
+c. Changing the shape of the lithosphere 
+d. Affecting the carbon cycle 
+
+16(15s) Which continent is described as having 30% of the Earth's land area? 
+a. The Americas 
+b. Africa 
+*c. Asia 
+d. Antarctica 
+
+17(15s) What is the "zero meridian" also known as? 
+a. The Equator 
+b. The Tropic of Capricorn 
+*c. The Greenwich Meridian 
+d. The Arctic Circle 
+
+18(15s) The Earth's core is composed of which two primary elements? 
+*a. Iron and nickel 
+b. Granite and basalt 
+c. Silicon and magnesium 
+d. Oxygen and argon 
+
+19(20s) What is a major drawback of an "Equivalent projection"? 
+a. It distorts the scale of distance 
+*b. It distorts shapes and angles 
+c. It cannot represent the continents 
+d. It fails to maintain surface proportions 
+
+20(15s) Which ocean is the largest on Earth? 
+*a. Pacific Ocean 
+b. Atlantic Ocean 
+c. Indian Ocean 
+d. Arctic Ocean 
+
+21(15s) What is the maximum possible longitude? 
+a. 90° 
+*b. 180° 
+c. 360° 
+d. 0° 
+
+22(15s) The "greenhouse effect" is responsible for: 
+a. Filtering solar radiation 
+b. Creating oxygen and nitrogen 
+*c. Regulating the Earth's temperature 
+d. Moving carbon through the lithosphere 
+
+23(15s) Which continent is separated from Europe by the Ural Mountains and the Volga River? 
+*a. Asia 
+b. Africa 
+c. Oceania 
+d. Antarctica 
+
+24(15s) What is the depth of the deepest hole ever drilled by humans (located in Russia)? 
+a. 6 000 km 
+b. 2 900 km 
+c. 70 km 
+*d. 13 km 
+
+25(20s) Which Sustainable Development Goal (SDG) is numbered as Goal 14? 
+a. Climate Action 
+b. Life on Land 
+*c. Life Below Water 
+d. Zero Hunger
