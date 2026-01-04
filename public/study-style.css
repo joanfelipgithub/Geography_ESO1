@@ -677,7 +677,30 @@ body:has(#feedbackScreen.active) {
     .question-text {
         font-size: 1.5rem;
     }
+
+    /* Feedback screen fixes */
+    #feedbackScreen {
+        overflow-y: auto !important;
+        max-height: 100vh !important;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+
+    .feedback-container {
+        overflow-y: auto !important;
+        max-height: 90vh !important;
+        height: auto !important;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        padding-bottom: 100px; /* Extra space at bottom */
+    }
+
+        /* Make sure content inside is scrollable */
+        .feedback-container > * {
+            position: relative !important;
+    }
+
 }
+
+
 
 @media print {
     body {
