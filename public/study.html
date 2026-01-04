@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Entrenament - Quiz Study</title>
+    <link rel="stylesheet" href="study-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Fredoka:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="startScreen" class="screen active">
+        <div class="start-container">
+            <div class="logo-section">
+                <h1 class="main-logo">📚 Mode Entrenament</h1>
+                <p class="tagline">Practica al teu ritme</p>
+            </div>
+            
+            <div class="setup-card">
+                <h2>Configura la teva sessió</h2>
+                
+                <div class="form-group">
+                    <label for="studentName">El teu nom:</label>
+                    <input 
+                        type="text" 
+                        id="studentName" 
+                        placeholder="Escriu el teu nom" 
+                        maxlength="30"
+                        autocomplete="off"
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="quizSelector">Tria el quiz:</label>
+                    <select id="quizSelector" class="quiz-dropdown">
+                        <option value="">Carregant quizzes...</option>
+                    </select>
+                    <div class="quiz-info" id="quizInfo">
+                        <span id="questionCount">0</span> preguntes
+                    </div>
+                </div>
+                
+                <button id="startBtn" class="btn-primary" disabled>
+                    Començar Entrenament
+                </button>
+            </div>
+            
+            <div class="info-box">
+                <h3>ℹ️ Com funciona:</h3>
+                <ul>
+                    <li>✅ Respon al teu ritme, sense pressa</li>
+                    <li>⏱️ El temps es registra automàticament</li>
+                    <li>📊 Al final veuràs un informe detallat</li>
+                    <li>🎯 Identifica els teus punts forts i dèbils</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="questionScreen" class="screen">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBar"></div>
+            <div class="progress-text">
+                Pregunta <span id="currentQ">1</span> de <span id="totalQ">10</span>
+            </div>
+        </div>
+        
+        <div class="question-container">
+            <div class="time-tracker">
+                <div class="timer-display">
+                    <span class="timer-icon">⏱️</span>
+                    <span id="elapsedTime">0:00</span>
+                </div>
+                <div class="timer-label">Temps transcorregut</div>
+            </div>
+            
+            <h2 class="question-text" id="questionText">
+                Carregant pregunta...
+            </h2>
+            
+            <div class="answers-grid">
+                <button class="answer-btn red" data-answer="a">
+                    <span class="answer-letter">A</span>
+                    <span class="answer-text" id="answerA"></span>
+                </button>
+                <button class="answer-btn blue" data-answer="b">
+                    <span class="answer-letter">B</span>
+                    <span class="answer-text" id="answerB"></span>
+                </button>
+                <button class="answer-btn yellow" data-answer="c">
+                    <span class="answer-letter">C</span>
+                    <span class="answer-text" id="answerC"></span>
+                </button>
+                <button class="answer-btn green" data-answer="d">
+                    <span class="answer-letter">D</span>
+                    <span class="answer-text" id="answerD"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Screen -->
+    <div id="feedbackScreen" class="screen">
+        <div class="feedback-container">
+            <div class="result-icon" id="resultIcon">✅</div>
+            <h2 class="result-title" id="resultTitle">Correcte!</h2>
+            
+            <div class="time-info">
+                <span class="time-label">Has trigat:</span>
+                <span class="time-value" id="timeSpent">5 segons</span>
+            </div>
+            
+            <div class="explanation-box">
+                <h3>📝 Explicació:</h3>
+                <p id="explanationText">La resposta correcta és...</p>
+            </div>
+            
+            <div class="feedback-actions">
+                <button id="nextBtn" class="btn-primary">
+                    Següent Pregunta →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Report Screen -->
+    <div id="reportScreen" class="screen">
+        <div class="report-container">
+            <h1 class="report-title">📊 Informe d'Entrenament</h1>
+            
+            <div class="report-header">
+                <div class="student-info">
+                    <strong id="reportName">Estudiant</strong>
+                </div>
+                <div class="quiz-info-report">
+                    <strong id="reportQuiz">Quiz</strong>
+                </div>
+            </div>
+            
+            <div class="summary-cards">
+                <div class="summary-card correct">
+                    <div class="card-icon">✅</div>
+                    <div class="card-value" id="correctCount">0</div>
+                    <div class="card-label">Correctes</div>
+                </div>
+                
+                <div class="summary-card incorrect">
+                    <div class="card-icon">❌</div>
+                    <div class="card-value" id="incorrectCount">0</div>
+                    <div class="card-label">Incorrectes</div>
+                </div>
+                
+                <div class="summary-card time">
+                    <div class="card-icon">⏱️</div>
+                    <div class="card-value" id="avgTime">0s</div>
+                    <div class="card-label">Temps mitjà</div>
+                </div>
+                
+                <div class="summary-card accuracy">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-value" id="accuracy">0%</div>
+                    <div class="card-label">Precisió</div>
+                </div>
+            </div>
+            
+            <div class="analysis-section" id="analysisSection">
+                <!-- Anàlisi detallada generada per JS -->
+            </div>
+            
+            <div class="detailed-results" id="detailedResults">
+                <!-- Resultats pregunta per pregunta -->
+            </div>
+            
+            <div class="report-actions">
+                <button id="printBtn" class="btn-secondary">
+                    🖨️ Imprimir Informe
+                </button>
+                <button id="newSessionBtn" class="btn-primary">
+                    🔄 Nova Sessió
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="study-client.js"></script>
+</body>
+</html>
