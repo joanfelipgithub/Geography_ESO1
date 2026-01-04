@@ -1,11 +1,10 @@
 // Cloudflare Pages Function (_middleware.js)
-// This handles all server-side logic including expiration checking
+// Handles API routes and expiration checking
 
 // ============================================================================
 // EXPIRATION CONFIG - SERVER SIDE (Students can't modify this)
 // ============================================================================
 
-// SET YOUR EXPIRATION DATE HERE
 const EXPIRATION_DATE = new Date('2026-06-30T23:59:59Z'); // Change this date
 
 const EXPIRATION_DISPLAY = EXPIRATION_DATE.toLocaleDateString('ca-ES', {
@@ -130,7 +129,8 @@ function getQuizName(filename) {
     return filename
         .replace(/\.txt$/, '')
         .replace(/^\d+_/, '')
-        .split('_')
+        .replace(/^\d+\s+/, '')
+        .split(/[_\s]+/)
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 }
@@ -140,7 +140,7 @@ function getQuizName(filename) {
 // ============================================================================
 
 export async function onRequest(context) {
-    const { request, env } = context;
+    const { request, env, next } = context;
     const url = new URL(request.url);
     
     // Check expiration for all requests
@@ -154,9 +154,8 @@ export async function onRequest(context) {
     // API: List all quizzes
     if (url.pathname === '/api/quizzes') {
         try {
-            // Fetch the quiz manifest (we'll create this)
-            const manifestUrl = new URL('/questions/manifest.json', request.url);
-            const manifestResponse = await context.env.ASSETS.fetch(manifestUrl);
+            // Fetch the manifest
+            const manifestResponse = await env.ASSETS.fetch(new URL('/questions/manifest.json', request.url));
             
             if (!manifestResponse.ok) {
                 throw new Error('Manifest not found');
@@ -166,25 +165,33 @@ export async function onRequest(context) {
             const quizzes = [];
             
             for (const filename of manifest.files) {
-                const fileUrl = new URL(`/questions/${filename}`, request.url);
-                const fileResponse = await context.env.ASSETS.fetch(fileUrl);
-                const text = await fileResponse.text();
-                const questions = parseQuestions(text);
-                
-                quizzes.push({
-                    file: filename,
-                    name: getQuizName(filename),
-                    questionCount: questions.length
-                });
+                try {
+                    const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
+                    const text = await fileResponse.text();
+                    const questions = parseQuestions(text);
+                    
+                    quizzes.push({
+                        file: filename,
+                        name: getQuizName(filename),
+                        questionCount: questions.length
+                    });
+                } catch (err) {
+                    console.error(`Error loading ${filename}:`, err);
+                }
             }
             
             return new Response(JSON.stringify(quizzes), {
-                headers: { 'Content-Type': 'application/json' }
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                }
             });
         } catch (error) {
+            console.error('Error in /api/quizzes:', error);
             return new Response(JSON.stringify({ 
                 error: 'Error loading quizzes',
-                message: error.message 
+                message: error.message,
+                details: 'Make sure manifest.json exists in questions folder'
             }), {
                 status: 500,
                 headers: { 'Content-Type': 'application/json' }
@@ -205,8 +212,7 @@ export async function onRequest(context) {
         }
         
         try {
-            const fileUrl = new URL(`/questions/${filename}`, request.url);
-            const fileResponse = await context.env.ASSETS.fetch(fileUrl);
+            const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
             
             if (!fileResponse.ok) {
                 return new Response(JSON.stringify({ error: 'Quiz not found' }), {
@@ -219,9 +225,13 @@ export async function onRequest(context) {
             const questions = parseQuestions(text);
             
             return new Response(JSON.stringify(questions), {
-                headers: { 'Content-Type': 'application/json' }
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                }
             });
         } catch (error) {
+            console.error('Error loading quiz:', error);
             return new Response(JSON.stringify({ 
                 error: 'Error loading quiz',
                 message: error.message 
@@ -243,10 +253,6 @@ export async function onRequest(context) {
         });
     }
     
-    // Serve static files
-    try {
-        return await env.ASSETS.fetch(request);
-    } catch (error) {
-        return new Response('Not Found', { status: 404 });
-    }
+    // Pass through to static assets
+    return next();
 }
