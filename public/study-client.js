@@ -140,8 +140,8 @@ async function startSession() {
         elements.totalQ.textContent = studyState.questions.length;
         
         showScreen('question');
-        showQuestion();
         document.getElementById('questionScreen').scrollTo(0, 0);
+        showQuestion();
 
     } catch (error) {
         console.error('Error loading quiz:', error);
@@ -152,6 +152,10 @@ async function startSession() {
 function showScreen(screenName) {
     Object.values(screens).forEach(screen => screen.classList.remove('active'));
     screens[screenName].classList.add('active');
+    setTimeout(() => {
+        screens[screenName].scrollTo(0, 0);
+        window.scrollTo(0, 0);
+    }, 50);
 }
 
 function showQuestion() {
@@ -253,6 +257,11 @@ function nextQuestion() {
     
     if (studyState.currentQuestionIndex < studyState.questions.length) {
         showScreen('question');
+        // AÑADE ESTAS LÍNEAS ↓
+        setTimeout(() => {
+            screens.question.scrollTo(0, 0);
+            window.scrollTo(0, 0);
+        }, 50);
         showQuestion();
     } else {
         showReport();
