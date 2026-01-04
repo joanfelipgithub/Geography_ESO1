@@ -29,6 +29,7 @@ body {
 body:has(#questionScreen.active),
 body:has(#feedbackScreen.active) {
     overflow: hidden !important;
+    scroll-behavior: auto !important;
 }
 
 /* Custom Scrollbar */
