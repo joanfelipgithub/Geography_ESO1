@@ -187,6 +187,7 @@ export async function onRequest(context) {
             // Load each quiz file from the hardcoded list
             for (const filename of QUIZ_FILES) {
                 try {
+                    const fileUrl = new URL(`/questions/${filename}`, request.url);
                     const fileResponse = await fetch(fileUrl);
 
                     
@@ -245,6 +246,7 @@ export async function onRequest(context) {
         }
         
         try {
+            const fileUrl = new URL(`/questions/${filename}`, request.url);
             const fileResponse = await fetch(fileUrl);
 
             if (!fileResponse.ok) {
