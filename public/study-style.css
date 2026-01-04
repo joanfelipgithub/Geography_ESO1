@@ -685,6 +685,21 @@ body:has(#feedbackScreen.active) {
         -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
 
+    #questionScreen {
+        overflow-y: auto !important;
+        max-height: 100vh !important;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+
+        #questionScreen.active {
+            scroll-padding-top: 0;
+        }
+
+    .question-container {
+        padding-top: 20px; /* Ensure content starts from top */
+    }
+
     .feedback-container {
         overflow-y: auto !important;
         max-height: 90vh !important;
