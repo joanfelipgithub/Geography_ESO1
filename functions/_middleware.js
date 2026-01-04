@@ -187,7 +187,8 @@ export async function onRequest(context) {
             // Load each quiz file from the hardcoded list
             for (const filename of QUIZ_FILES) {
                 try {
-                    const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
+                    const fileResponse = await fetch(fileUrl);
+
                     
                     if (fileResponse.ok) {
                         const text = await fileResponse.text();
