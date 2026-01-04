@@ -245,8 +245,8 @@ export async function onRequest(context) {
         }
         
         try {
-            const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
-            
+            const fileResponse = await fetch(fileUrl);
+
             if (!fileResponse.ok) {
                 return new Response(JSON.stringify({ 
                     error: 'Quiz not found',
