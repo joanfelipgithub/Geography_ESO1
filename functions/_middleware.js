@@ -17,6 +17,34 @@ const EXPIRATION_DISPLAY = EXPIRATION_DATE.toLocaleDateString('ca-ES', {
 });
 
 // ============================================================================
+// QUIZ FILES LIST
+// Update this list when you add new quiz files
+// ============================================================================
+
+const QUIZ_FILES = [
+    '02.txt',
+    '04 05.txt',
+    '06 07.txt',
+    '10 11.txt',
+    '12 13.txt',
+    '14 15.txt',
+    '16 17.txt',
+    '18 19.txt',
+    '20 21.txt',
+    '22.txt',
+    '24.txt',
+    '26 27.txt',
+    '36 37.txt',
+    '38 39.txt',
+    '40.txt',
+    '42 43.txt',
+    '44.txt',
+    '46.txt',
+    '46_.txt',
+    '48 50.txt'
+];
+
+// ============================================================================
 // EXPIRATION CHECK
 // ============================================================================
 
@@ -154,27 +182,23 @@ export async function onRequest(context) {
     // API: List all quizzes
     if (url.pathname === '/api/quizzes') {
         try {
-            // Fetch the manifest
-            const manifestResponse = await env.ASSETS.fetch(new URL('/questions/manifest.json', request.url));
-            
-            if (!manifestResponse.ok) {
-                throw new Error('Manifest not found');
-            }
-            
-            const manifest = await manifestResponse.json();
             const quizzes = [];
             
-            for (const filename of manifest.files) {
+            // Load each quiz file from the hardcoded list
+            for (const filename of QUIZ_FILES) {
                 try {
                     const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
-                    const text = await fileResponse.text();
-                    const questions = parseQuestions(text);
                     
-                    quizzes.push({
-                        file: filename,
-                        name: getQuizName(filename),
-                        questionCount: questions.length
-                    });
+                    if (fileResponse.ok) {
+                        const text = await fileResponse.text();
+                        const questions = parseQuestions(text);
+                        
+                        quizzes.push({
+                            file: filename,
+                            name: getQuizName(filename),
+                            questionCount: questions.length
+                        });
+                    }
                 } catch (err) {
                     console.error(`Error loading ${filename}:`, err);
                 }
@@ -191,7 +215,7 @@ export async function onRequest(context) {
             return new Response(JSON.stringify({ 
                 error: 'Error loading quizzes',
                 message: error.message,
-                details: 'Make sure manifest.json exists in questions folder'
+                stack: error.stack
             }), {
                 status: 500,
                 headers: { 'Content-Type': 'application/json' }
@@ -211,11 +235,23 @@ export async function onRequest(context) {
             });
         }
         
+        // Verify filename is in allowed list
+        if (!QUIZ_FILES.includes(filename)) {
+            return new Response(JSON.stringify({ error: 'Quiz not in allowed list' }), {
+                status: 403,
+                headers: { 'Content-Type': 'application/json' }
+            });
+        }
+        
         try {
             const fileResponse = await env.ASSETS.fetch(new URL(`/questions/${filename}`, request.url));
             
             if (!fileResponse.ok) {
-                return new Response(JSON.stringify({ error: 'Quiz not found' }), {
+                return new Response(JSON.stringify({ 
+                    error: 'Quiz not found',
+                    filename: filename,
+                    status: fileResponse.status
+                }), {
                     status: 404,
                     headers: { 'Content-Type': 'application/json' }
                 });
@@ -234,7 +270,8 @@ export async function onRequest(context) {
             console.error('Error loading quiz:', error);
             return new Response(JSON.stringify({ 
                 error: 'Error loading quiz',
-                message: error.message 
+                message: error.message,
+                stack: error.stack
             }), {
                 status: 500,
                 headers: { 'Content-Type': 'application/json' }
@@ -247,7 +284,9 @@ export async function onRequest(context) {
         return new Response(JSON.stringify({ 
             status: 'ok', 
             expiresAt: EXPIRATION_DATE.toISOString(),
-            isExpired: isExpired()
+            isExpired: isExpired(),
+            quizCount: QUIZ_FILES.length,
+            quizFiles: QUIZ_FILES
         }), {
             headers: { 'Content-Type': 'application/json' }
         });
