@@ -141,6 +141,8 @@ async function startSession() {
         
         showScreen('question');
         showQuestion();
+        document.getElementById('questionScreen').scrollTo(0, 0);
+
     } catch (error) {
         console.error('Error loading quiz:', error);
         alert('Error carregant el quiz. Torna-ho a provar.');
