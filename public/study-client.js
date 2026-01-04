@@ -152,10 +152,14 @@ async function startSession() {
 function showScreen(screenName) {
     Object.values(screens).forEach(screen => screen.classList.remove('active'));
     screens[screenName].classList.add('active');
+
+    // Force scroll to top - important for mobile
     setTimeout(() => {
-        screens[screenName].scrollTo(0, 0);
-        window.scrollTo(0, 0);
-    }, 50);
+        screens[screenName].scrollTo({ top: 0, behavior: 'auto' });
+        window.scrollTo({ top: 0, behavior: 'auto' });
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome/Firefox
+    }, 100);
 }
 
 function showQuestion() {
@@ -254,15 +258,18 @@ function showFeedback(isCorrect, timeSpent, question) {
 
 function nextQuestion() {
     studyState.currentQuestionIndex++;
-    
+
     if (studyState.currentQuestionIndex < studyState.questions.length) {
         showScreen('question');
-        // AÑADE ESTAS LÍNEAS ↓
-        setTimeout(() => {
-            screens.question.scrollTo(0, 0);
-            window.scrollTo(0, 0);
-        }, 50);
         showQuestion();
+
+        // Force scroll to top with longer delay for iOS
+        setTimeout(() => {
+            screens.question.scrollTo({ top: 0, behavior: 'auto' });
+            window.scrollTo({ top: 0, behavior: 'auto' });
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome/Firefox
+        }, 100);
     } else {
         showReport();
     }
