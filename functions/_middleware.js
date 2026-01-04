@@ -112,10 +112,10 @@ function parseQuestions(content) {
     const lines = content.split('\n').filter(line => line.trim() !== '');
     const questions = [];
     let currentQuestion = null;
-    
+
     for (let line of lines) {
         line = line.trim();
-        
+
         const questionMatch = line.match(/^(\d+)\((\d+)s\)\s+(.+)$/);
         if (questionMatch) {
             if (currentQuestion) {
@@ -133,23 +133,23 @@ function parseQuestions(content) {
             const isCorrect = line.startsWith('*');
             const answerLine = isCorrect ? line.substring(1) : line;
             const answerMatch = answerLine.match(/^([a-d])\.\s+(.+)$/);
-            
+
             if (answerMatch && currentQuestion) {
                 const key = answerMatch[1];
                 const text = answerMatch[2];
                 currentQuestion.options[key] = text;
-                
+
                 if (isCorrect) {
                     currentQuestion.correct = key;
                 }
             }
         }
     }
-    
+
     if (currentQuestion) {
         questions.push(currentQuestion);
     }
-    
+
     return questions;
 }
 
@@ -170,7 +170,7 @@ function getQuizName(filename) {
 export async function onRequest(context) {
     const { request, env, next } = context;
     const url = new URL(request.url);
-    
+
     // Check expiration for all requests
     if (isExpired()) {
         return new Response(getExpiredHTML(), {
@@ -178,43 +178,54 @@ export async function onRequest(context) {
             headers: { 'Content-Type': 'text/html; charset=utf-8' }
         });
     }
-    
+
     // API: List all quizzes
     if (url.pathname === '/api/quizzes') {
         try {
             const quizzes = [];
-            
+
+            console.log('🚀 Starting to load quizzes...');
+            console.log(`📋 Total quiz files: ${QUIZ_FILES.length}`);
+
             // Load each quiz file from the hardcoded list
             for (const filename of QUIZ_FILES) {
                 try {
                     const fileUrl = new URL(`/questions/${filename}`, request.url);
-                    const fileResponse = await fetch(fileUrl);
+                    console.log(`🔍 Fetching: ${fileUrl.href}`);
 
-                    
+                    const fileResponse = await fetch(fileUrl);
+                    console.log(`📡 Status for ${filename}: ${fileResponse.status}`);
+
                     if (fileResponse.ok) {
                         const text = await fileResponse.text();
                         const questions = parseQuestions(text);
-                        
+
+                        console.log(`✅ Parsed ${questions.length} questions from ${filename}`);
+
                         quizzes.push({
                             file: filename,
                             name: getQuizName(filename),
                             questionCount: questions.length
                         });
+                    } else {
+                        console.log(`❌ Failed to load ${filename}: ${fileResponse.status}`);
                     }
                 } catch (err) {
-                    console.error(`Error loading ${filename}:`, err);
+                    console.error(`💥 Error loading ${filename}:`, err.message);
                 }
             }
-            
+
+            console.log(`🎉 Total quizzes loaded: ${quizzes.length}`);
+
             return new Response(JSON.stringify(quizzes), {
-                headers: { 
+                headers: {
                     'Content-Type': 'application/json',
                     'Access-Control-Allow-Origin': '*'
                 }
             });
         } catch (error) {
-            console.error('Error in /api/quizzes:', error);
-            return new Response(JSON.stringify({ 
+            console.error('💥 Error in /api/quizzes:', error);
+            return new Response(JSON.stringify({
                 error: 'Error loading quizzes',
                 message: error.message,
                 stack: error.stack
@@ -224,11 +235,11 @@ export async function onRequest(context) {
             });
         }
     }
-    
+
     // API: Get specific quiz
     if (url.pathname.startsWith('/api/quiz/')) {
         const filename = url.pathname.replace('/api/quiz/', '');
-        
+
         // Security: prevent directory traversal
         if (filename.includes('..') || filename.includes('/') || filename.includes('\\')) {
             return new Response(JSON.stringify({ error: 'Invalid filename' }), {
@@ -236,7 +247,7 @@ export async function onRequest(context) {
                 headers: { 'Content-Type': 'application/json' }
             });
         }
-        
+
         // Verify filename is in allowed list
         if (!QUIZ_FILES.includes(filename)) {
             return new Response(JSON.stringify({ error: 'Quiz not in allowed list' }), {
@@ -244,13 +255,13 @@ export async function onRequest(context) {
                 headers: { 'Content-Type': 'application/json' }
             });
         }
-        
+
         try {
             const fileUrl = new URL(`/questions/${filename}`, request.url);
             const fileResponse = await fetch(fileUrl);
 
             if (!fileResponse.ok) {
-                return new Response(JSON.stringify({ 
+                return new Response(JSON.stringify({
                     error: 'Quiz not found',
                     filename: filename,
                     status: fileResponse.status
@@ -259,19 +270,19 @@ export async function onRequest(context) {
                     headers: { 'Content-Type': 'application/json' }
                 });
             }
-            
+
             const text = await fileResponse.text();
             const questions = parseQuestions(text);
-            
+
             return new Response(JSON.stringify(questions), {
-                headers: { 
+                headers: {
                     'Content-Type': 'application/json',
                     'Access-Control-Allow-Origin': '*'
                 }
             });
         } catch (error) {
             console.error('Error loading quiz:', error);
-            return new Response(JSON.stringify({ 
+            return new Response(JSON.stringify({
                 error: 'Error loading quiz',
                 message: error.message,
                 stack: error.stack
@@ -281,11 +292,11 @@ export async function onRequest(context) {
             });
         }
     }
-    
+
     // API: Health check
     if (url.pathname === '/api/health') {
-        return new Response(JSON.stringify({ 
-            status: 'ok', 
+        return new Response(JSON.stringify({
+            status: 'ok',
             expiresAt: EXPIRATION_DATE.toISOString(),
             isExpired: isExpired(),
             quizCount: QUIZ_FILES.length,
@@ -294,7 +305,7 @@ export async function onRequest(context) {
             headers: { 'Content-Type': 'application/json' }
         });
     }
-    
+
     // Pass through to static assets
     return next();
 }
