@@ -238,7 +238,10 @@ export async function onRequest(context) {
 
     // API: Get specific quiz
     if (url.pathname.startsWith('/api/quiz/')) {
-        const filename = url.pathname.replace('/api/quiz/', '');
+        let filename = url.pathname.replace('/api/quiz/', '');
+
+        // Decode URL-encoded filename (handles spaces and special characters)
+        filename = decodeURIComponent(filename);
 
         // Security: prevent directory traversal
         if (filename.includes('..') || filename.includes('/') || filename.includes('\\')) {
@@ -250,7 +253,11 @@ export async function onRequest(context) {
 
         // Verify filename is in allowed list
         if (!QUIZ_FILES.includes(filename)) {
-            return new Response(JSON.stringify({ error: 'Quiz not in allowed list' }), {
+            return new Response(JSON.stringify({
+                error: 'Quiz not in allowed list',
+                requested: filename,
+                available: QUIZ_FILES
+            }), {
                 status: 403,
                 headers: { 'Content-Type': 'application/json' }
             });
