@@ -1,5 +1,3 @@
-Here is a 25-question multiple-choice quiz based strictly on the provided textbook page regarding Europe's relief. 
-
 01(15s) What is the total surface area of Europe? 
 a. 15,213,307 km² 
 *b. 10,213,307 km² 
@@ -148,4 +146,4 @@ d. Ural Mountains
 a. It is the highest on Earth. 
 *b. It is diverse and of low-altitude. 
 c. It consists entirely of mountains. 
-d. It is mostly below sea level. Would you like me to create a summary table of the mountain ranges mentioned, or perhaps a map-reading exercise based on the labels in the image?
+d. It is mostly below sea level.

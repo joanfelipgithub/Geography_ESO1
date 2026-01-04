@@ -1,155 +1,149 @@
-Here is a 25-question multiple-choice quiz based strictly on the provided textbook page. 
-
 01(15s) Why are rivers in Europe generally shorter than those on other continents? 
-a. Because of the heavy rainfall in the Atlanti
-c. 
+a. Because of the heavy rainfall in the Atlantic. 
 b. Due to the high number of navigable deltas. 
 *c. Because of Europe's small size and low relief. 
-d. Because they flow mostly into the Mediterranean. (Source: 46.jpg) 
+d. Because they flow mostly into the Mediterranean.  
 
 02(15s) Into how many watersheds are European rivers classified? 
 a. Three 
 *b. Five 
 c. Six 
-d. Four (Source: 46.jpg) 
+d. Four  
 
 03(15s) Which watershed features rivers that are frozen during the winter? 
 *a. Arctic Watershed 
 b. Atlantic Watershed 
 c. Mediterranean Watershed 
-d. Black Sea Watershed (Source: 46.jpg) 
+d. Black Sea Watershed  
 
 04(15s) What event causes flooding in the Arctic Watershed during the spring? 
 a. High regular discharge 
 b. The rainy Atlantic climate 
 c. Glacial movement 
-*d. The thaw (Source: 46.jpg) 
+*d. The thaw  
 
 05(15s) Which of the following is an important river in the Arctic Watershed? 
 a. The Rhine 
 *b. The Pechora 
 c. The Volga 
-d. The Ebro (Source: 46.jpg) 
+d. The Ebro  
 
 06(15s) Why do rivers in the Atlantic Watershed have a high regular discharge? 
 *a. Due to the rainy Atlantic climate. 
 b. Because they are the longest in Europe. 
 c. Because they are frozen in the winter. 
-d. Due to the proximity between source and coast. (Source: 46.jpg) 
+d. Due to the proximity between source and coast.  
 
 07(20s) Which of these rivers belongs to the Atlantic Watershed? 
 a. The Po 
 b. The Northern Dvina 
 *c. The Tagus (Tajo) 
-d. The Danube (Source: 46.jpg) 
+d. The Danube  
 
 08(15s) Why are many rivers in the Atlantic Watershed navigable? 
 a. They have a low discharge. 
 b. They are frozen during the winter. 
 *c. They flow through flat areas. 
-d. They are the longest rivers in Europe. (Source: 46.jpg) 
+d. They are the longest rivers in Europe.  
 
 09(15s) Which characteristic is common for some rivers flowing into the Mediterranean Sea? 
 *a. They have a low discharge. 
 b. They are the longest in Europe. 
 c. They have a high regular discharge from rain. 
-d. They cross the North European Plain. (Source: 46.jpg) 
+d. They cross the North European Plain.  
 
 10(20s) Why do the Ebro, Rhône, and Po have a high discharge despite being Mediterranean rivers? 
 a. Because they flow through the North European Plain. 
 *b. Because they receive water from the mountains. 
 c. Because they are located in a rainy climate. 
-d. Because they are frozen during the winter. (Source: 46.jpg) 
+d. Because they are frozen during the winter.  
 
 11(15s) Which watershed contains the longest rivers in Europe? 
 a. Arctic Watershed 
 b. Atlantic Watershed 
 *c. Black Sea and Caspian Sea Watersheds 
-d. Mediterranean Watershed (Source: 46.jpg) 
+d. Mediterranean Watershed  
 
 12(15s) According to the text, what is the longest river in Europe? 
 a. The Danube 
 b. The Rhine 
 *c. The Volga 
-d. The Ural (Source: 46.jpg) 
+d. The Ural  
 
 13(15s) What is the exact length of the Volga river? 
 *a. 3645 km 
 b. 883 km 
 c. 77,000 km 
-d. 2500 km (Source: 46.jpg) 
+d. 2500 km  
 
 14(15s) Into which sea does the Danube river flow? 
 a. Caspian Sea 
 b. Atlantic Ocean 
 *c. Black Sea 
-d. Arctic Ocean (Source: 46.jpg) 
+d. Arctic Ocean  
 
 15(15s) Which two rivers flow into the Caspian Sea? 
 a. The Rhine and the Vistula 
 *b. The Volga and the Ural 
 c. The Pechora and the Northern Dvina 
-d. The Seine and the Loire (Source: 46.jpg) 
+d. The Seine and the Loire  
 
 16(15s) What is a "curious fact" mentioned about the Volga? 
 a. It is navigable for 883 km. 
-b. It is the best-preserved delt
-a. 
-c. It is located in Switzerlan
-d. 
-*d. It is the longest and biggest river in Europe. (Source: 46.jpg) 
+b. It is the best-preserved delta. 
+c. It is located in Switzerland. 
+*d. It is the longest and biggest river in Europe.  
 
 17(15s) Which delta is described as the biggest and best preserved in Europe? 
 *a. The Danube Delta 
 b. The Rhine Delta 
 c. The Volga Delta 
-d. The Po Delta (Source: 46.jpg) 
+d. The Po Delta  
 
 18(15s) For how many kilometers is the Rhine navigable? 
 a. 3645 km 
 b. 77,000 km 
 *c. 883 km 
-d. 46 km (Source: 46.jpg) 
+d. 46 km  
 
 19(15s) What is the total area covered by European lakes? 
 a. 3645 km² 
 *b. 77,000 km² 
 c. 883 km² 
-d. 15,000 km² (Source: 46.jpg) 
+d. 15,000 km²  
 
 20(20s) How were most European lakes formed? 
 a. By high regular discharge and rain. 
-b. By the spring thaw of the Arcti
-c. 
+b. By the spring thaw of the Arctic. 
 *c. By the last glacial period and lithospheric plate movement. 
-d. By the proximity between source and coast. (Source: 46.jpg) 
+d. By the proximity between source and coast.  
 
 21(15s) In which two countries are the biggest European lakes found? 
 *a. Finland and Russia 
 b. Sweden and Switzerland 
 c. Italy and France 
-d. Germany and Poland (Source: 46.jpg) 
+d. Germany and Poland  
 
 22(15s) Which lake is identified as the biggest in Europe? 
 a. Lake Onega 
 b. Lake Peipus 
 *c. Lake Ladoga 
-d. Lake Vänern (Source: 46.jpg) 
+d. Lake Vänern  
 
 23(15s) In which country is Lake Vänern located? 
 a. Switzerland 
 b. Italy 
 c. Russia 
-*d. Sweden (Source: 46.jpg) 
+*d. Sweden  
 
 24(20s) Which lakes are mentioned as being located in Switzerland? 
 a. Ladoga and Onega 
 *b. Constance and Geneva 
 c. Maggiore and Vänern 
-d. Peipus and Ebro (Source: 46.jpg) 
+d. Peipus and Ebro  
 
 25(15s) Where is Lake Maggiore located? 
 a. Switzerland 
 *b. Italy 
 c. Finland 
-d. Russia (Source: 46.jpg) Would you like me to generate a summary study guide based on these same facts?
+d. Russia 

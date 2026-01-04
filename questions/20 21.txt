@@ -1,5 +1,3 @@
-Here is the 25-question multiple-choice quiz based strictly on the provided textbook pages. 
-
 01(15s) What are the three main external forces that shape relief? 
 a. Gravity, heat, and pressure 
 b. Earthquakes, volcanoes, and tsunamis 
@@ -148,4 +146,4 @@ d. By allowing glaciers to move
 a. Peninsula 
 b. Gulf 
 c. Cape 
-*d. Isthmus Would you like me to create a vocabulary list based on these landforms or perhaps a summary table of the three external forces?
+*d. Isthmus

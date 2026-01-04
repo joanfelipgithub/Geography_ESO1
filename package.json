@@ -1,0 +1,29 @@
+{
+  "name": "geography-eso1-quiz",
+  "version": "1.0.0",
+  "description": "Quiz Study Mode for Geography ESO1 - Cloudflare Pages",
+  "main": "functions/_middleware.js",
+  "type": "module",
+  "scripts": {
+    "prebuild": "node generate-manifest.js",
+    "build": "echo 'Manifest generated, ready to deploy'",
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  },
+  "keywords": [
+    "quiz",
+    "study",
+    "geography",
+    "education",
+    "eso1",
+    "cloudflare"
+  ],
+  "author": "Joan Felip",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

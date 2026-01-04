@@ -1,151 +1,149 @@
-Here is a 25-question multiple-choice quiz based strictly on the provided textbook page. 
-
 01(15s) How many oceans are there on Earth according to the text? 
 a. Four 
 b. Six 
 *c. Five 
-d. Seven (Source: 40.jpg) 
+d. Seven  
 
 02(15s) When did the oceans first appear on Earth? 
 *a. About 4 billion years ago 
 b. About 1 billion years ago 
 c. About 10 billion years ago 
-d. About 500 million years ago (Source: 40.jpg) 
+d. About 500 million years ago  
 
 03(15s) What are the big expanses of land that divide the masses of salt water called? 
 a. Archipelagos 
 b. Oceanic ridges 
 c. Islands 
-*d. Continents (Source: 40.jpg) 
+*d. Continents  
 
 04(15s) What is the specific name for parts of the oceans that are close to land? 
 a. Ridges 
 *b. Seas 
 c. Abyssal plains 
-d. Trenches (Source: 40.jpg) 
+d. Trenches  
 
 05(20s) What is the average depth of the oceans in the abyssal plains? 
 *a. Greater than 3000 m 
 b. Exactly 11000 m 
 c. Less than 200 m 
-d. Between 500 and 1000 m (Source: 40.jpg) 
+d. Between 500 and 1000 m  
 
 06(15s) In which areas is the ocean depth typically less than 200 m? 
 a. Abyssal plains 
 b. Oceanic ridges 
 *c. Oceanic shelves 
-d. Deep areas (Source: 40.jpg) 
+d. Deep areas  
 
 07(15s) What is the maximum depth some deep areas of the ocean can reach? 
 a. Over 3000 m 
 *b. Over 11000 m 
 c. Exactly 200 m 
-d. About 4 billion m (Source: 40.jpg) 
+d. About 4 billion m  
 
 08(20s) Which of the following describes the bottom of the ocean? 
 a. It is perfectly flat. 
 b. It is only made of abyssal plains. 
 c. It has no elevations or depressions. 
-*d. It has elevations and depressions, both isolated and along ridges. (Source: 40.jpg) 
+*d. It has elevations and depressions, both isolated and along ridges.  
 
 09(15s) What are oceanic ridges? 
 a. Deep depressions in the water 
 *b. Elevations along the ocean floor 
 c. Shallow areas near the coast 
-d. Small pieces of land surrounded by water (Source: 40.jpg) 
+d. Small pieces of land surrounded by water  
 
 10(15s) What term is used to describe a group of small pieces of land in the oceans and seas? 
 a. Abyssal plains 
 b. Oceanic shelves 
 c. Ridges 
-*d. Archipelagos (Source: 40.jpg) 
+*d. Archipelagos  
 
 11(15s) Which ocean is the largest by surface area percentage? 
 a. Atlantic 
 b. Indian 
 *c. Pacific 
-d. Antarctic (Source: 40.jpg) 
+d. Antarctic  
 
 12(20s) What is the percentage of oceanic surface area covered by the Atlantic Ocean? 
 a. 46.6% 
 *b. 23.5% 
 c. 19.5% 
-d. 6.1% (Source: 40.jpg) 
+d. 6.1%  
 
 13(15s) According to the chart, what percentage of the oceanic surface area does the Indian Ocean cover? 
 *a. 19.5% 
 b. 4.3% 
 c. 23.5% 
-d. 46.6% (Source: 40.jpg) 
+d. 46.6%  
 
 14(15s) Which ocean has the smallest percentage of surface area at 4.3%? 
 a. Antarctic 
 b. Indian 
 c. Atlantic 
-*d. Arctic (Source: 40.jpg) 
+*d. Arctic  
 
 15(15s) What is the surface area of the Pacific Ocean in square kilometers? 
 a. 135,663 
 b. 3,970 
 *c. 168,723,000 
-d. 11,000 (Source: 40.jpg) 
+d. 11,000  
 
 16(15s) What is the average depth of the Pacific Ocean? 
 a. 11,000 m 
 b. 200 m 
 c. 3,000 m 
-*d. 3,970 m (Source: 40.jpg) 
+*d. 3,970 m  
 
 17(20s) Which two regions does the Pacific Ocean separate? 
 *a. The Americas from Asia and Oceania 
 b. Europe from North America 
 c. Africa from South America 
-d. Asia from Europe (Source: 40.jpg) 
+d. Asia from Europe  
 
 18(15s) What is the length of the coastline of the Pacific Ocean? 
 a. 3,970 km 
 *b. 135,663 km 
 c. 168,723,000 km 
-d. 11,000 km (Source: 40.jpg) 
+d. 11,000 km  
 
 19(15s) Based on the map data, which of these is an island or island group in the Pacific? 
 a. Baffin Island 
 b. Cuba 
 *c. Hawaiian Islands 
-d. Madagascar (Source: 40.jpg) 
+d. Madagascar  
 
 20(20s) Which trench is located along the western coast of South America? 
 a. Middle America Trench 
 *b. Peru-Chile Trench 
 c. Caribbean Trench 
-d. Aleutian Trench (Source: 40.jpg) 
+d. Aleutian Trench  
 
 21(15s) Which bay is located in the northern part of North America according to the map? 
 a. Gulf of Mexico 
 b. Baffin Bay 
 *c. Hudson Bay 
-d. Caribbean Sea (Source: 40.jpg) 
+d. Caribbean Sea  
 
 22(15s) What feature is located near the southern tip of South America? 
 *a. Strait of Magellan 
 b. Bering Strait 
 c. Gulf of Mexico 
-d. Middle America Trench (Source: 40.jpg) 
+d. Middle America Trench  
 
 23(15s) Which ridge is located in the southeastern Pacific near South America? 
 a. Oceanic Ridge 
 b. Mid-oceanic Ridge 
 *c. Nazca Ridge 
-d. Abyssal Ridge (Source: 40.jpg) 
+d. Abyssal Ridge  
 
 24(20s) What is the percentage of surface area for the Antarctic Ocean? 
 a. 19.5% 
 b. 4.3% 
 *c. 6.1% 
-d. 46.6% (Source: 40.jpg) 
+d. 46.6%  
 
 25(15s) According to the "Key points," how deep can the oceans be in some places? 
 a. Less than 200 m 
 b. Exactly 3000 m 
 c. About 4 billion m 
-*d. More than 11000 m (Source: 40.jpg) Would you like me to generate a similar quiz focusing only on the geographical locations mentioned on the map?
+*d. More than 11000 m
